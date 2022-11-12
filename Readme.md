@@ -127,8 +127,52 @@
         <h5>Logs - openfeign</h5>
         <img src="./images/Screenshot_64.png" width="700">
         <img src="./images/Screenshot_65.png" width="700">
+        </details>
+        <details>
+        <summary style="font-size:15px;cursor:pointer">📌 5. BILLING-SERVICE avec consul config (Click to expand 🖱)</summary>
+        <h5>Dependencies</h5>
+        <img src="./images/Screenshot_70.png" width="700">
+        <h5>Configuration</h5>
+        <img src="./images/Screenshot_69.png" width="700">
+        <h5>Consul config - billing service properties</h5>
+        <img src="./images/Screenshot_72.png" width="700">
+        <h5>Controlleur de test</h5>
+        <img src="./images/Screenshot_71.png" width="700"> 
+        <img src="./images/Screenshot_66.png" width="700"> 
+        <h5>Avec class de configuration</h5>
+        <img src="./images/Screenshot_67.png" width="700">
+        <img src="./images/Screenshot_68.png" width="700">
+        <img src="./images/Screenshot_73.png" width="700">
+        <h5>Configuration des secrets avec vault</h5>
+        <img src="./images/Screenshot_74.png" width="700">
+        <img src="./images/Screenshot_75.png" width="700">
+        <img src="./images/Screenshot_76.png" width="700">
+        <img src="./images/Screenshot_77.png" width="700">
+        <img src="./images/Screenshot_78.png" width="700">
+        <img src="./images/Screenshot_79.png" width="700">
+        <img src="./images/Screenshot_80.png" width="700">
+        <h5>Configuration a chaud avec vault (ajout d'un otp)</h5>
+        <img src="./images/Screenshot_81.png" width="700">
+        <img src="./images/Screenshot_82.png" width="700">
+        <h5>Creatin d'un nouveau secret avec vault template</h5>
+        <img src="./images/Screenshot_83.png" width="700">
+        <img src="./images/Screenshot_84.png" width="700">
+        </details>
+
+        <p>to do : </p>
+        <ul>
+        <li>📌 Vault (Billing Service)</li>
+        <li>📌 Frontend Web avec Angular</li>
+        </ul>
 
 
+
+        <details>
+        <summary style="font-size:20px;cursor:pointer">4. GATEWAY-SERVICE (Click to expand 🖱)</summary>
+        </details>
+        <details>
+        <summary style="font-size:20px;cursor:pointer">5. DEPLOY THE MICROSERVICES (Click to expand 🖱) </summary>
+        </details>
 
         
 </div>
