@@ -125,24 +125,6 @@
         <img src="./images/Screenshot_62.png" width="700">
         <img src="./images/Screenshot_63.png" width="700">
 
-
-        </details>
-        <p>to do : </p>
-        <ul>
-        <li>📌 Consul Config (Billing Service)</li>
-        <li>📌 Vault (Billing Service)</li>
-        <li>📌 Frontend Web avec Angular</li>
-        </ul>
-
-
-
-        <details>
-        <summary style="font-size:20px;cursor:pointer">4. GATEWAY-SERVICE (Click to expand 🖱)</summary>
-        </details>
-        <details>
-        <summary style="font-size:20px;cursor:pointer">5. DEPLOY THE MICROSERVICES (Click to expand 🖱) </summary>
-        </details>
-
         
 </div>
 
