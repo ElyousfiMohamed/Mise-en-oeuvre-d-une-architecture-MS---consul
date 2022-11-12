@@ -124,6 +124,11 @@
         <h5>fullOrder</h5>
         <img src="./images/Screenshot_62.png" width="700">
         <img src="./images/Screenshot_63.png" width="700">
+        <h5>Logs - openfeign</h5>
+        <img src="./images/Screenshot_64.png" width="700">
+        <img src="./images/Screenshot_65.png" width="700">
+
+
 
         
 </div>
