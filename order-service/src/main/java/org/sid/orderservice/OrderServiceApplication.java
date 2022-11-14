@@ -38,7 +38,6 @@ public class OrderServiceApplication {
 			List<Product> products=inventoryRestClientService.allProducts().getContent().stream().toList();
 			Long customerId=1L;
 			Random random=new Random();
-			Customer customer=customerRestClientService.customerById(customerId);
 			for (int i = 0; i <20 ; i++) {
 				Order order=Order.builder()
 						.customerId(customers.get(random.nextInt(customers.size())).getId())

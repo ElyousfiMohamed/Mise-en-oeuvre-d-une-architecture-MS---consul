@@ -7,11 +7,12 @@ import org.sid.orderservice.repository.OrderRepository;
 import org.sid.orderservice.repository.ProductItemRepository;
 import org.sid.orderservice.services.CustomerRestClientService;
 import org.sid.orderservice.services.InventoryRestClientService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController @CrossOrigin("*")
 public class OderRestController {
 
     private OrderRepository orderRepository;
@@ -30,7 +31,8 @@ public class OderRestController {
     @GetMapping("/fullOrder/{id}")
     public Order getOrder(@PathVariable Long id){
         Order order=orderRepository.findById(id).get();
-        Customer customer=customerRestClientService.customerById(order.getCustomerId());
+        Customer customer=customerRestClientService.allCustomers().getContent().stream()
+                .filter(c->c.getId().equals(order.getCustomerId())).findFirst().get();
         order.setCustomer(customer);
         order.getProductItems().forEach(pi->{
             Product product=inventoryRestClientService.productById(pi.getProductId());

@@ -16,5 +16,16 @@ public class Customer {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private int age;
+    private String sexe;
+    private String ville;
     private String email;
+
+    public Customer(String name, int age, String sexe, String ville, String email) {
+        this.name = name;
+        this.age = age;
+        this.sexe = sexe;
+        this.ville = ville;
+        this.email = email;
+    }
 }

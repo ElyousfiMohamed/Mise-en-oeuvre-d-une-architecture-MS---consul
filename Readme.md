@@ -158,22 +158,18 @@
         <img src="./images/Screenshot_83.png" width="700">
         <img src="./images/Screenshot_84.png" width="700">
         </details>
-
-        <p>to do : </p>
-        <ul>
-        <li>📌 Vault (Billing Service)</li>
-        <li>📌 Frontend Web avec Angular</li>
-        </ul>
-
-
-
         <details>
-        <summary style="font-size:20px;cursor:pointer">4. GATEWAY-SERVICE (Click to expand 🖱)</summary>
+        <summary style="font-size:15px;cursor:pointer">📌 6. FRONTEND ANGULAR (Click to expand 🖱)</summary>
+        <h5>Customers list</h5>
+        <img src="./images/Screenshot_85.png" width="700">
+        <img src="./images/Screenshot_86.png" width="700">
+        <h5>Products list</h5>
+        <img src="./images/Screenshot_87.png" width="700">
+        <h5>Orders list</h5>
+        <img src="./images/Screenshot_88.png" width="700">
+        <h5>Order details</h5>
+        <img src="./images/Screenshot_89.png" width="700">
         </details>
-        <details>
-        <summary style="font-size:20px;cursor:pointer">5. DEPLOY THE MICROSERVICES (Click to expand 🖱) </summary>
-        </details>
-
         
 </div>
 

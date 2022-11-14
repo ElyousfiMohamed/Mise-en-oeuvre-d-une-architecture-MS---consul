@@ -1,0 +1,11 @@
+/* center element of table */
+p-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+td.title {
+  font-weight: bold;
+  padding-right: 20px;
+}
